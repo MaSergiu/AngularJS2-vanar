@@ -8,10 +8,10 @@ import { taskRouting, appRoutingProviders } from './task.routing';
 
 //initializarea modulului nou
 @NgModule({
-  imports: [ BrowserModule, taskRouting ],
-  declarations: [TaskListComponent, TaskDetailsComponent],
-  providers: [ appRoutingProviders ],
-  bootstrap: [ TaskListComponent ]
+    imports: [ BrowserModule, taskRouting ],
+    declarations: [TaskListComponent, TaskDetailsComponent],
+    providers: [ appRoutingProviders ],
+    bootstrap: [ TaskListComponent ]
 })
 
 //exportarea pentru utilizarea ulterioara
